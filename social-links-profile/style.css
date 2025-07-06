@@ -1,3 +1,4 @@
+/* Base Styles */
 :root {
   --green: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
@@ -15,20 +16,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 body {
+  position: relative;
   background-color: var(--grey-900);
   color: var(--white);
   height: 100vh;
+  font-family: "Inter", sans-serif;
 }
 
+/* Card Styles */
 .card {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 450px;
   background-color: var(--grey-800);
   text-align: center;
   border-radius: 8px;
+  padding: 28px;
 }
 
 .avatar {
@@ -38,21 +43,52 @@ body {
 }
 
 .name {
-
+  margin-bottom: 10px;
 }
 
+.location {
+  font-size: 16px;
+  color: var(--green);
+  margin-bottom: 28px;
+}
 
+.details {
+  margin-bottom: 16px;
+}
 
+.platforms {
+  margin: 0 auto;
+}
 
+.platform {
+  background-color: var(--grey-700);
+  border: 1px solid var(--grey-700);
+  padding: 16px 32px;
+  width: 80%;
+  margin: 18px auto;
+  border-radius: 8px;
+}
 
+.platform:hover {
+  background-color: var(--grey-800);
+  cursor: pointer;
+}
 
-
-
-
+/* Footer Styles */
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--green);
 }
+
+/* 
+Hover
+font weigts
+mobile version
+*/
