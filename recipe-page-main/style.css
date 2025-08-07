@@ -32,7 +32,7 @@ body {
 /* Container */
 .container {
   background-color: var(--white);
-  width: 40%;
+  max-width: 60%;
   margin: 60px auto;
   padding: 32px;
   border-radius: 12px;
@@ -137,4 +137,24 @@ td:nth-child(even) {
 .attribution a:hover {
   text-decoration: none;
   color: var(--stone-600);
+}
+
+/* Mobile Version */
+@media only screen and (max-width: 810px) {
+  body {
+    background-color: var(--white);
+  }
+
+  /* Container */
+  .container {
+    background-color: var(--white);
+    max-width: 100%;
+    margin: 14px;
+    padding: 0;
+  }
+
+  .image {
+    width: 100%;
+    border-radius: 6px;
+  }
 }
