@@ -3,84 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
     <link rel="stylesheet" href="./output.css" />
-
     <title>Frontend Mentor | Results summary component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
-  <body>
-    <div>
-      <div>
-        <p>Your Result</p>
-        <h2>76</h2>
-        <p>of 100</p>
-        <h2>Great</h2>
-        <p>
-          You scored higher than 65% of the people who have taken these tests.
-        </p>
-      </div>
 
-      <div>
-        <h2>Summary</h2>
-        <div>
-          <div>
-            <div>
-              <img src="./assets/images/icon-reaction.svg" alt="" />
-              <p>Reaction</p>
-            </div>
-            <p>80 / 100</p>
+  <body class="bg-pale-blue h-full flex items-center justify-center">
+    <div>
+      <div
+        class="container max-w-7xl mx-auto flex items-center justify-center flex-col lg:flex-row"
+      >
+        <div
+          class="bg-linear-to-t from-slate-blue to-light-royal-blue text-white rounded-3xl text-center flex flex-col items-center gap-6 flex-1 p-8"
+        >
+          <p class="text-light-lavender font-semibold text-xl mt-4">
+            Your Result
+          </p>
+          <div
+            class="bg-linear-to-t from-persian-blue to-violet-blue rounded-full w-min py-8 px-10"
+          >
+            <h2 class="font-bold text-6xl">76</h2>
+            <p class="text-light-lavender">of 100</p>
           </div>
-          <div>
-            <div>
-              <img src="./assets/images/icon-memory.svg" alt="" />
-              <p>Memory</p>
-            </div>
-            <p>92 / 100</p>
-          </div>
-          <div>
-            <div>
-              <img src="./assets/images/icon-verbal.svg" alt="" />
-              <p>Verbal</p>
-            </div>
-            <p>61 / 100</p>
-          </div>
-          <div>
-            <div>
-              <img src="./assets/images/icon-visual.svg" alt="" />
-              <p>Visual</p>
-            </div>
-            <p>72 / 100</p>
-          </div>
+          <h2 class="text-3xl font-semibold">Great</h2>
+          <p class="w-56">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
         </div>
 
-        <button>Continue</button>
-      </div>
-    </div>
+        <div
+          class="bg-white p-8 rounded-t-3xl lg:rounded-r-3xl flex flex-col gap-6 flex-1"
+        >
+          <h2 class="text-dark-gray-blue font-semibold text-xl mt-4">
+            Summary
+          </h2>
+          <div class="flex flex-col gap-3">
+            <div
+              class="bg-light-red/15 text-light-red py-3 px-4 rounded-lg flex gap-8"
+            >
+              <div class="flex gap-2 items-center">
+                <img
+                  src="../assets/images/icon-reaction.svg"
+                  alt=""
+                  class="w-auto"
+                />
+                <p>Reaction</p>
+              </div>
+              <p>80 / 100</p>
+            </div>
+            <div
+              class="bg-orangey-yellow/15 text-orangey-yellow py-3 px-3 rounded-lg flex justify-between w-auto"
+            >
+              <div class="flex gap-2 items-center">
+                <img
+                  src="../assets/images/icon-memory.svg"
+                  alt=""
+                  class="w-auto"
+                />
+                <p>Memory</p>
+              </div>
+              <p>92 / 100</p>
+            </div>
+            <div
+              class="bg-green-teal/15 text-green-teal py-3 px-3 rounded-lg flex justify-between w-auto"
+            >
+              <div class="flex gap-2 items-center">
+                <img
+                  src="../assets/images/icon-verbal.svg"
+                  alt=""
+                  class="w-auto"
+                />
+                <p>Verbal</p>
+              </div>
+              <p>61 / 100</p>
+            </div>
+            <div
+              class="bg-cobalt-blue/15 text-cobalt-blue py-3 px-3 rounded-lg flex justify-between w-auto"
+            >
+              <div class="flex gap-2 items-center">
+                <img
+                  src="../assets/images/icon-visual.svg"
+                  alt=""
+                  class="w-auto"
+                />
+                <p>Visual</p>
+              </div>
+              <p>72 / 100</p>
+            </div>
+          </div>
 
-    <div>
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+          <button class="text-white bg-dark-gray-blue rounded-full p-3">
+            Continue
+          </button>
+        </div>
+      </div>
+
+      <div class="text-center mt-6">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Muhammad Noman</a>.
+      </div>
     </div>
   </body>
 </html>
