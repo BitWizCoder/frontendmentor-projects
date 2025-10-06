@@ -1,6 +1,6 @@
-# 100DaysOfCode challenge
+# Frontend Mentor | Challenges
 
-### Join the daily challenges: [iCodeThis](https://iCodeThis.com/?ref=virag)
+### Join the Challenges: [Frontend Mentor](https://www.frontendmentor.io/challenges)
 
 | Project 1 | Project 2 |
 |---|---|
