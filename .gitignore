@@ -4,12 +4,12 @@
 *.xd
 
 # Dependencies
-/node_modules
 /.pnp
 .pnp.js
 yarn.debug.log*
 yarn.error.log*
 npm-debug.log*
+node_modules/
 
 # Environment and secrets
 .env
