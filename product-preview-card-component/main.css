@@ -8,8 +8,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-size: 18px;
-  font-family: "Fraunces", serif;
-  font-family: "Montserrat", sans-serif;
 }
 
 @theme {
@@ -22,4 +20,8 @@ body {
   --color-grey: hsl(228, 12%, 48%);
   --color-cream: hsl(30, 38%, 92%);
   --color-white: hsl(0, 0%, 100%);
+
+  /* Fonts */
+  --font-fraunces: "Fraunces", serif;
+  --font-montserrat: "Montserrat", sans-serif;
 }
