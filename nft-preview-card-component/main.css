@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+@theme {
+  /* Primary */
+  --color-green-500: hsl(158, 36%, 37%);
+
+
+  /* Fonts */
+  --font-fraunces: "Fraunces", serif;
+
+}
