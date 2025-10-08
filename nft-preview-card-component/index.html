@@ -1,26 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./output.css" />
-  <title>Frontend Mentor | NFT preview card component</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
 
-<body>
-  Equilibrium #3429
+  <body class="bg-blue-950 font-outfit">
+    <div class="flex items-center justify-center flex-col min-h-screen">
+      <div class="flex flex-col gap-6 bg-blue-900 max-w-xs p-4 rounded-s-xl">
+        <img
+          src="./images/image-equilibrium.jpg"
+          alt="Equilibrium Image"
+          class="rounded-md"
+        />
 
-  Our Equilibrium collection promotes balance and calm.
+        <h1 class="text-white text-xl font-semibold">Equilibrium #3429</h1>
+        <p class="text-blue-500 text-lg">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+        <div class="flex justify-between">
+          <div class="text-cyan-400 flex items-center gap-2">
+            <img src="./images/icon-ethereum.svg" alt="ethereum icon" />
+            <p>0.041 ETH</p>
+          </div>
+          <div class="text-blue-500 flex items-center gap-2">
+            <img src="./images/icon-clock.svg" alt="clock icon" />
+            <p>3 days left</p>
+          </div>
+        </div>
 
-  <div class="">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/BitWizCoder">BitWizCoder</a>.
-  </div>
-</body>
+        <div class="h-0.5 w-full bg-blue-800"></div>
+
+        <div class="flex items-center gap-3">
+          <img
+            src="./images/image-avatar.png"
+            alt="avatar"
+            class="w-8 border border-white rounded-full"
+          />
+          <p class="text-white">
+            <span class="text-blue-500">Creation of</span> Jules Wyvern
+          </p>
+        </div>
+      </div>
+
+      <div class="text-blue-500 mt-6">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/BitWizCoder">BitWizCoder</a>.
+      </div>
+    </div>
+  </body>
 </html>
