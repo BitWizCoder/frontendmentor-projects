@@ -16,13 +16,23 @@
   <body class="bg-blue-950 font-outfit">
     <div class="flex items-center justify-center flex-col min-h-screen">
       <div class="flex flex-col gap-6 bg-blue-900 max-w-xs p-4 rounded-s-xl">
-        <img
-          src="./images/image-equilibrium.jpg"
-          alt="Equilibrium Image"
-          class="rounded-md"
-        />
+        <div class="relative cursor-pointer group">
+          <img
+            src="./images/image-equilibrium.jpg"
+            alt="Equilibrium Image"
+            class="rounded-md w-full"
+          />
 
-        <h1 class="text-white text-xl font-semibold">Equilibrium #3429</h1>
+          <div
+            class="flex items-center justify-center rounded-md absolute inset-0 bg-cyan-400/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <img src="./images/icon-view.svg" alt="view icon" />
+          </div>
+        </div>
+
+        <a class="text-white text-xl font-semibold hover:text-cyan-400" href="#"
+          >Equilibrium #3429</a
+        >
         <p class="text-blue-500 text-lg">
           Our Equilibrium collection promotes balance and calm.
         </p>
@@ -46,17 +56,24 @@
             alt="avatar"
             class="w-8 border border-white rounded-full"
           />
-          <p class="text-white">
-            <span class="text-blue-500">Creation of</span> Jules Wyvern
+          <p class="text-blue-500">
+            Creation of
+            <a class="text-white hover:text-cyan-400" href="#">Jules Wyvern</a>
           </p>
         </div>
       </div>
 
-      <div class="text-blue-500 mt-6">
+      <div class="text-blue-500 mt-6 text-sm">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="hover:text-cyan-400"
           >Frontend Mentor</a
-        >. Coded by <a href="https://github.com/BitWizCoder">BitWizCoder</a>.
+        >. Coded by
+        <a href="https://github.com/BitWizCoder" class="hover:text-cyan-400"
+          >BitWizCoder</a
+        >.
       </div>
     </div>
   </body>
