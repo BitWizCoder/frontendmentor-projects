@@ -13,34 +13,61 @@
     <title>Frontend Mentor | Order summary card</title>
   </head>
 
-  <body>
-    <div>
-      <img src="" alt="" />
+  <body
+    class="bg-[url(./images/pattern-background-mobile.svg)] lg:bg-[url(./images/pattern-background-desktop.svg)] bg-blue-100 bg-no-repeat bg-contain flex flex-col justify-center items-center min-h-screen font-red-hat-display"
+  >
+    <div class="">
+      <div class="bg-white max-w-sm rounded-2xl">
+        <img
+          src="./images/illustration-hero.svg"
+          alt="illustration"
+          class="rounded-t-2xl"
+        />
 
-      <div>
-        <div>
-          <h1>Order Summary</h1>
-          <p>
-            You can now listen to millions of songs, audiobooks, and podcasts on
-            any device anywhere you like!
-          </p>
-        </div>
-        <div>
-          <img src="" alt="" />
+        <div class="text-center mt-6 p-10 flex flex-col">
           <div>
-            <h2>Annual Plan</h2>
-            <p>$59.99/year</p>
+            <h1 class="text-3xl py-4 font-semibold text-blue-950">
+              Order Summary
+            </h1>
+            <p class="text-gray-600 mb-4">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
           </div>
-          <a href="#">Change</a>
+          <div
+            class="flex justify-between items-center text-left bg-blue-50 p-6 rounded-2xl mb-6"
+          >
+            <div class="flex gap-4">
+              <img
+                src="./images/icon-music.svg"
+                alt="music icon"
+                class="w-12 h-12"
+              />
+              <div>
+                <h2 class="text-blue-950 font-semibold text-lg">Annual Plan</h2>
+                <p class="text-gray-600">$59.99/year</p>
+              </div>
+            </div>
+            <a
+              href="#"
+              class="text-blue-700 hover:text-blue-700/65 underline font-semibold"
+              >Change</a
+            >
+          </div>
+
+          <button
+            class="bg-blue-700 hover:bg-blue-700/65 text-white rounded-xl py-3 block mb-6 shadow-md shadow-blue-100 cursor-pointer font-semibold"
+          >
+            Proceed to Payment
+          </button>
+          <button class="font-semibold cursor-pointer text-blue-950">
+            Cancel Order
+          </button>
         </div>
-
-        <button>Proceed to Payment</button>
-
-        <a>Cancel Order</a>
       </div>
     </div>
 
-    <div>
+    <div class="text-center mt-8 w-xs md:w-full">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
