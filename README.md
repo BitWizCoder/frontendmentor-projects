@@ -14,3 +14,7 @@
 | Project 5 | Project 6 |
 |---|---|
 | [![Live Preview](./qr-code-component/preview.jpg)](https://frontendmentor-projectz.netlify.app/qr-code-component/) | [![Live Preview](./nft-preview-card-component/preview.jpg)](https://frontendmentor-projectz.netlify.app/nft-preview-card-component/) |
+
+| Project 7 | Project 8 |
+|---|---|
+| [![Live Preview](./order-summary-component/preview.jpg)](https://frontendmentor-projectz.netlify.app/order-summary-component/) | [![Live Preview](./stats-preview-card-component/preview.jpg)](https://frontendmentor-projectz.netlify.app/stats-preview-card-component/) |
