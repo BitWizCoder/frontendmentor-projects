@@ -13,19 +13,24 @@
     <link rel="stylesheet" href="./output.css" />
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
-  <body class="bg-navy-950 flex items-center justify-center min-h-screen">
+  <body
+    class="bg-navy-950 flex items-center justify-center min-h-screen w-full"
+  >
     <div class="m-12 lg:m-0">
       <div
-        class="max-w-xl flex items-center justify-center flex-col lg:flex-row-reverse"
+        class="lg:max-w-6xl flex items-center justify-center flex-col lg:flex-row-reverse"
       >
-        <div>
-          <img
-            src="./images/image-header-desktop.jpg"
-            alt="header image"
-            class="bg-cover bg-no-repeat bg-center"
-          />
+        <div class="relative w-full h-full lg:w-1/2 bg-purple-900">
+          <img src="./images/image-header-desktop.jpg" alt="header image" /*
+          FIX: Added necessary sizing and object-fit utilities */ class="w-full
+          h-full object-cover mix-blend-multiply opacity-75 hidden lg:block" />
+          <img src="./images/image-header-mobile.jpg" alt="header image" /*
+          Using a mobile image is better for mobile-first */ class="w-full
+          h-full object-cover mix-blend-multiply opacity-75 lg:hidden" />
         </div>
-        <div class="bg-blue-950 p-12 text-center lg:text-left flex flex-col">
+        <div
+          class="bg-blue-950 p-12 text-center lg:text-left flex flex-col lg:w-1/2"
+        >
           <h1 class="text-white-300 text-5xl font-inter font-semibold my-6">
             Get <span class="text-purple-500">insights</span> that help your
             business grow.
@@ -35,8 +40,8 @@
             regarding revenue, customer experience, and overall efficiency.
           </p>
 
-          <div class="flex flex-col lg:flex-row">
-            <div class="mb-4">
+          <div class="flex flex-col lg:flex-row gap-6">
+            <div>
               <h2 class="text-white-300 text-3xl font-semibold font-inter">
                 10k+
               </h2>
@@ -44,7 +49,7 @@
                 companies
               </p>
             </div>
-            <div class="mb-4">
+            <div>
               <h2 class="text-white-300 text-3xl font-semibold font-inter">
                 314
               </h2>
