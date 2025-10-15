@@ -1,27 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./output.css" />
-  <title>Frontend Mentor | Stats preview card component</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body class="bg-navy-950 flex items-center justify-center min-h-screen">
+    <div class="m-12 lg:m-0">
+      <div
+        class="max-w-xl flex items-center justify-center flex-col lg:flex-row-reverse"
+      >
+        <div>
+          <img
+            src="./images/image-header-desktop.jpg"
+            alt="header image"
+            class="bg-cover bg-no-repeat bg-center"
+          />
+        </div>
+        <div class="bg-blue-950 p-12 text-center lg:text-left flex flex-col">
+          <h1 class="text-white-300 text-5xl font-inter font-semibold my-6">
+            Get <span class="text-purple-500">insights</span> that help your
+            business grow.
+          </h1>
+          <p class="text-white-500 font-lexend-deca text-lg mb-12">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
 
-  Get insights that help your business grow.
+          <div class="flex flex-col lg:flex-row">
+            <div class="mb-4">
+              <h2 class="text-white-300 text-3xl font-semibold font-inter">
+                10k+
+              </h2>
+              <p class="text-white-500 font-lexend-deca uppercase text-sm">
+                companies
+              </p>
+            </div>
+            <div class="mb-4">
+              <h2 class="text-white-300 text-3xl font-semibold font-inter">
+                314
+              </h2>
+              <p class="text-white-500 font-lexend-deca uppercase text-sm">
+                templates
+              </p>
+            </div>
+            <div>
+              <h2 class="text-white-300 text-3xl font-semibold font-inter">
+                12m+
+              </h2>
+              <p class="text-white-500 font-lexend-deca uppercase text-sm">
+                queries
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <div class="text-white-300 text-center mt-4">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/BitWizCoder">BitWizCoder</a>.
+      </div>
+    </div>
+  </body>
 </html>
