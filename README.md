@@ -18,3 +18,7 @@
 | Project 7 | Project 8 |
 |---|---|
 | [![Live Preview](./order-summary-component/preview.jpg)](https://frontendmentor-projectz.netlify.app/order-summary-component/) | [![Live Preview](./stats-preview-card-component/preview.jpg)](https://frontendmentor-projectz.netlify.app/stats-preview-card-component/) |
+
+| Project 9 | Project 10 |
+|---|---|
+| [![Live Preview](./3-column-preview-card-component/preview.jpg)](https://frontendmentor-projectz.netlify.app/3-column-preview-card-component/) | [![Live Preview](./stats-preview-card-component/preview.jpg)](https://frontendmentor-projectz.netlify.app/stats-preview-card-component/) |
